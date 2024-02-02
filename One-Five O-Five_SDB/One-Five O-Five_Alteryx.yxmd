@@ -1,0 +1,1409 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2022.1">
+  <Nodes>
+    <Node ToolID="3">
+      <GuiSettings>
+        <Position x="198" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">500000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+          <Value name="Deterministic">False</Value>
+          <Value name="Seed">458676342</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="RandomRecords.yxmc" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="594" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PONGSA~1\AppData\Local\Temp\Engine_4644_4ebbf8d53aa1aa4a95379807e63e2bb6_\Engine_4644_b68146ad6ef4ed41a7de7131f9f39a49~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="234" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\PONGSA~1\AppData\Local\Temp\Engine_4644_4ebbf8d53aa1aa4a95379807e63e2bb6_\Engine_4644_5d8d79cc75d6394ea6255f986ff0c02c~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Profile</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>True</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>True</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>tripadvisor_european_restaurants.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="restaurant_link" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="restaurant_name" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="original_location" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="country" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="region" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="province" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="city" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="address" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="latitude" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="longitude" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="claimed" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="awards" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="popularity_detailed" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="popularity_generic" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="top_tags" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="price_level" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="price_range" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="meals" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="cuisines" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="special_diets" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="features" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="vegetarian_friendly" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="vegan_options" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="gluten_free" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="original_open_hours" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="open_days_per_week" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="open_hours_per_week" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="working_shifts_per_week" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="avg_rating" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="total_reviews_count" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="default_language" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="reviews_count_in_default_language" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="excellent" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="very_good" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="average" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="poor" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="terrible" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="food" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="service" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="value" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="atmosphere" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+            <Field name="keywords" size="254" source="File: C:\Users\Pongsakorn\Downloads\archive\tripadvisor_european_restaurants.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="390" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="restaurant_link" selected="True" />
+            <Field field="restaurant_name" selected="True" />
+            <Field field="original_location" selected="True" />
+            <Field field="country" selected="True" />
+            <Field field="region" selected="True" />
+            <Field field="province" selected="True" />
+            <Field field="city" selected="True" />
+            <Field field="address" selected="True" />
+            <Field field="latitude" selected="True" />
+            <Field field="longitude" selected="True" />
+            <Field field="claimed" selected="True" />
+            <Field field="awards" selected="True" />
+            <Field field="popularity_detailed" selected="True" />
+            <Field field="popularity_generic" selected="True" />
+            <Field field="top_tags" selected="True" />
+            <Field field="price_level" selected="True" />
+            <Field field="price_range" selected="True" />
+            <Field field="meals" selected="True" />
+            <Field field="cuisines" selected="True" />
+            <Field field="special_diets" selected="True" />
+            <Field field="features" selected="True" />
+            <Field field="vegetarian_friendly" selected="True" />
+            <Field field="vegan_options" selected="True" />
+            <Field field="gluten_free" selected="True" />
+            <Field field="original_open_hours" selected="True" />
+            <Field field="open_days_per_week" selected="True" />
+            <Field field="open_hours_per_week" selected="True" />
+            <Field field="working_shifts_per_week" selected="True" />
+            <Field field="avg_rating" selected="True" />
+            <Field field="total_reviews_count" selected="True" />
+            <Field field="default_language" selected="True" />
+            <Field field="reviews_count_in_default_language" selected="True" />
+            <Field field="excellent" selected="True" />
+            <Field field="very_good" selected="True" />
+            <Field field="average" selected="True" />
+            <Field field="poor" selected="True" />
+            <Field field="terrible" selected="True" />
+            <Field field="food" selected="True" />
+            <Field field="service" selected="True" />
+            <Field field="value" selected="True" />
+            <Field field="atmosphere" selected="True" />
+            <Field field="keywords" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="restaurant_link" size="19" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="restaurant_name" size="94" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="original_location" size="151" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="country" size="16" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="region" size="28" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="province" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="city" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="address" size="241" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="latitude" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="longitude" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="claimed" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="awards" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="popularity_detailed" size="73" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="popularity_generic" size="72" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="top_tags" size="70" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="price_level" size="16" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="price_range" size="28" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="meals" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="cuisines" size="185" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="special_diets" size="70" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="features" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="vegetarian_friendly" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="vegan_options" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="gluten_free" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="original_open_hours" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="open_days_per_week" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="open_hours_per_week" size="20" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="working_shifts_per_week" size="4" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="avg_rating" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="total_reviews_count" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="default_language" size="13" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="reviews_count_in_default_language" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="excellent" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="very_good" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="average" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="poor" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="terrible" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="food" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="service" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="value" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="atmosphere" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="keywords" size="122" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="486" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="address" selected="False" />
+            <SelectField field="price_level" selected="False" />
+            <SelectField field="price_range" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings>
+        <Position x="294" y="138" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"restaurant_link","restaurant_name","original_location","country","region","province","city","address","latitude","longitude","claimed","awards","popularity_detailed","popularity_generic","top_tags","price_level","price_range","meals","cuisines","special_diets","features","vegetarian_friendly","vegan_options","gluten_free","original_open_hours","open_days_per_week","open_hours_per_week","working_shifts_per_week","avg_rating","total_reviews_count","default_language","reviews_count_in_default_language","excellent","very_good","average","poor","terrible","food","service","value","atmosphere","keywords"</Value>
+          <Value name="Check Box (84)">True</Value>
+          <Value name="Check Box (117)">True</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">False</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+        <Position x="582" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Field>awards</Field>
+          <Delimeters value="," />
+          <NumFields value="1" />
+          <Flags value="0" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings>
+        <Position x="690" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Check Box (135)">False</Value>
+          <Value name="Check Box (136)">False</Value>
+          <Value name="List Box (11)">"awards"</Value>
+          <Value name="Check Box (84)">False</Value>
+          <Value name="Check Box (117)">False</Value>
+          <Value name="Check Box (15)">True</Value>
+          <Value name="Check Box (109)">True</Value>
+          <Value name="Check Box (122)">False</Value>
+          <Value name="Check Box (53)">False</Value>
+          <Value name="Check Box (58)">False</Value>
+          <Value name="Check Box (70)">False</Value>
+          <Value name="Check Box (77)">False</Value>
+          <Value name="Drop Down (81)">upper</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Cleanse.yxmc" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="822" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>IsNotNull</Operator>
+            <Field>awards</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2022-11-16 23:50:24</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>
+              </Operand>
+              <StartDate>2022-11-16 23:50:24</StartDate>
+              <EndDate>2022-11-16 23:50:24</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>!IsNull([awards])</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxSpatialPluginsGui.Summarize.Summarize">
+        <Position x="1026" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SummarizeFields>
+            <SummarizeField field="restaurant_link" action="GroupBy" rename="restaurant_link" />
+            <SummarizeField field="country" action="GroupBy" rename="country" />
+            <SummarizeField field="region" action="GroupBy" rename="region" />
+            <SummarizeField field="longitude" action="GroupBy" rename="longitude" />
+            <SummarizeField field="latitude" action="GroupBy" rename="latitude" />
+            <SummarizeField field="restaurant_name" action="GroupBy" rename="restaurant_name" />
+            <SummarizeField field="awards" action="Count" rename="count_awards" />
+          </SummarizeFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxSpatialPluginsEngine.dll" EngineDllEntryPoint="AlteryxSummarize" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1110" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="count_awards" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>count_awards - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="1218" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Pongsakorn\Downloads\archive\Project_count_awards_country.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Project_count_awards_country.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="930" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([country], &quot;England&quot;, &quot;United Kingdom&quot;)" field="country" size="254" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[country = Replace([country], "England", "United Kingdom")
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1698" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[country] = "Italy" AND !IsEmpty([awards]) 
+AND [avg_rating] &gt;= 4.5</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[country] = "Italy" AND !IsEmpty([awards]) 
+AND [avg_rating] &gt;= 4.5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1698" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[country] = "Spain" AND !IsEmpty([awards]) AND [avg_rating] &gt;= 4.5</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[country] = "Spain" AND !IsEmpty([awards]) AND [avg_rating] &gt;= 4.5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+        <Position x="642" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FormulaFields>
+            <FormulaField expression="Replace([country], 'England', 'United Kingdom')" field="country" size="516" type="V_String" />
+          </FormulaFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText><![CDATA[country = Replace([country], 'England', 'United Kingdom')
+]]></DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1698" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[country] = "France" AND !IsEmpty([awards]) AND [avg_rating] &gt;= 4.5</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[country] = "France" AND !IsEmpty([awards]) AND [avg_rating] &gt;= 4.5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1698" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[country] = "United Kingdom" AND !IsEmpty([awards]) AND [avg_rating] &gt;= 4.5</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[country] = "United Kingdom" AND !IsEmpty([awards]) AND [avg_rating] &gt;= 4.5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="25">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="1698" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[country] = "Germany" AND !IsEmpty([awards]) AND [avg_rating] &gt;= 4.5</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[country] = "Germany" AND !IsEmpty([awards]) AND [avg_rating] &gt;= 4.5</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="26">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="726" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="restaurant_link" selected="True" />
+            <Field field="restaurant_name" selected="True" />
+            <Field field="original_location" selected="True" />
+            <Field field="country" selected="True" />
+            <Field field="region" selected="True" />
+            <Field field="province" selected="True" />
+            <Field field="city" selected="True" />
+            <Field field="latitude" selected="True" />
+            <Field field="longitude" selected="True" />
+            <Field field="claimed" selected="True" />
+            <Field field="awards" selected="True" />
+            <Field field="popularity_detailed" selected="True" />
+            <Field field="popularity_generic" selected="True" />
+            <Field field="top_tags" selected="True" />
+            <Field field="meals" selected="True" />
+            <Field field="cuisines" selected="True" />
+            <Field field="special_diets" selected="True" />
+            <Field field="features" selected="True" />
+            <Field field="vegetarian_friendly" selected="True" />
+            <Field field="vegan_options" selected="True" />
+            <Field field="gluten_free" selected="True" />
+            <Field field="original_open_hours" selected="True" />
+            <Field field="open_days_per_week" selected="True" />
+            <Field field="open_hours_per_week" selected="True" />
+            <Field field="working_shifts_per_week" selected="True" />
+            <Field field="avg_rating" selected="True" />
+            <Field field="total_reviews_count" selected="True" />
+            <Field field="default_language" selected="True" />
+            <Field field="reviews_count_in_default_language" selected="True" />
+            <Field field="excellent" selected="True" />
+            <Field field="very_good" selected="True" />
+            <Field field="average" selected="True" />
+            <Field field="poor" selected="True" />
+            <Field field="terrible" selected="True" />
+            <Field field="food" selected="True" />
+            <Field field="service" selected="True" />
+            <Field field="value" selected="True" />
+            <Field field="atmosphere" selected="True" />
+            <Field field="keywords" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="restaurant_link" size="19" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="restaurant_name" size="94" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="original_location" size="151" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="country" size="16" source="Formula: Replace([country], 'England', 'United Kingdom')" type="V_String" />
+            <Field name="region" size="28" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="province" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="city" size="43" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="latitude" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="longitude" size="10" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="claimed" size="9" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="awards" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="popularity_detailed" size="73" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="popularity_generic" size="72" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="top_tags" size="70" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="meals" size="53" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="cuisines" size="185" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="special_diets" size="70" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="features" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="vegetarian_friendly" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="vegan_options" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="gluten_free" size="1" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="original_open_hours" size="254" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="open_days_per_week" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="open_hours_per_week" size="20" source="Formula: [_CurrentField_]" type="V_String" />
+            <Field name="working_shifts_per_week" size="4" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="avg_rating" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="total_reviews_count" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="default_language" size="13" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="reviews_count_in_default_language" size="7" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="excellent" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="very_good" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="average" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="poor" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="terrible" size="6" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="food" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="service" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="value" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="atmosphere" size="3" source="Formula: [_CurrentField_]" type="String" />
+            <Field name="keywords" size="122" source="Formula: [_CurrentField_]" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="27">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="798" y="594" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="original_open_hours" selected="True" size="512" />
+            <SelectField field="avg_rating" selected="True" type="Double" size="8" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="28">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="2082" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="original_open_hours" selected="False" />
+            <SelectField field="keywords" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="29">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="2166" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="0">C:\Users\Pongsakorn\Downloads\archive\Project_open_hour_data.csv</File>
+          <Passwords />
+          <FormatSpecificOptions>
+            <LineEndStyle>CRLF</LineEndStyle>
+            <Delimeter>,</Delimeter>
+            <ForceQuotes>False</ForceQuotes>
+            <HeaderRow>True</HeaderRow>
+            <CodePage>28591</CodePage>
+            <WriteBOM>True</WriteBOM>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Project_open_hour_data.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="30">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1794" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="avg_rating" order="Descending" />
+            <Field field="total_reviews_count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>avg_rating - Descending
+total_reviews_count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="32">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1794" y="522" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="avg_rating" order="Descending" />
+            <Field field="total_reviews_count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>avg_rating - Descending
+total_reviews_count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="34">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1794" y="618" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="avg_rating" order="Descending" />
+            <Field field="total_reviews_count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>avg_rating - Descending
+total_reviews_count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="36">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1794" y="714" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="avg_rating" order="Descending" />
+            <Field field="total_reviews_count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>avg_rating - Descending
+total_reviews_count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="38">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Sort.Sort">
+        <Position x="1794" y="822" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <SortInfo locale="1033">
+            <Field field="avg_rating" order="Descending" />
+            <Field field="total_reviews_count" order="Descending" />
+          </SortInfo>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>avg_rating - Descending
+total_reviews_count - Descending</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSort" />
+    </Node>
+    <Node ToolID="40">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Union.Union">
+        <Position x="1986" y="630" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <ByName_ErrorMode>Warning</ByName_ErrorMode>
+          <ByName_OutputMode>All</ByName_OutputMode>
+          <Mode>ByName</Mode>
+          <SetOutputOrder value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxUnion" />
+    </Node>
+    <Node ToolID="50">
+      <GuiSettings Plugin="AlteryxGuiToolkit.ToolContainer.ToolContainer">
+        <Position x="857" y="461" width="801" height="348" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Caption>find splitted openning hours for each day (Sat and Sun is not empty)</Caption>
+          <Style TextColor="#314c4a" FillColor="#ecf2f2" BorderColor="#314c4a" Transparency="25" Margin="25" />
+          <Disabled value="False" />
+          <Folded value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <ChildNodes>
+        <Node ToolID="41">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="882" y="594" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>Contains([meals],"Breakfast") AND  !IsEmpty([original_open_hours])</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Contains([meals],"Breakfast") AND  !IsEmpty([original_open_hours])</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="42">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.TextToColumns.TextToColumns">
+            <Position x="1266" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Field>original_open_hours</Field>
+              <ErrorHandling>Last</ErrorHandling>
+              <RootName>original_open_hours</RootName>
+              <Delimeters value="," />
+              <NumFields value="7" />
+              <Flags value="40" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxTextToColumns" />
+        </Node>
+        <Node ToolID="43">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="1074" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="Trim([original_open_hours],'{}')&#xA;&#xA;" field="original_open_hours" size="512" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText><![CDATA[original_open_hours = Trim([original_open_hours],'{}')
+
+
+]]></DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+        <Node ToolID="44">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+            <Position x="1230" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="original_open_hours1" selected="True" rename="original_open_hours_Mon" />
+                <SelectField field="original_open_hours2" selected="True" rename="original_open_hours_Tue" />
+                <SelectField field="original_open_hours3" selected="True" rename="original_open_hours_Wed" />
+                <SelectField field="original_open_hours4" selected="True" rename="original_open_hours_Thu" />
+                <SelectField field="original_open_hours5" selected="True" rename="original_open_hours_Fri" />
+                <SelectField field="original_open_hours6" selected="True" rename="original_open_hours_Sat" />
+                <SelectField field="original_open_hours7" selected="True" rename="original_open_hours_Sun" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+        </Node>
+        <Node ToolID="45">
+          <GuiSettings>
+            <Position x="1170" y="510" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Value name="Check Box (135)">False</Value>
+              <Value name="Check Box (136)">False</Value>
+              <Value name="List Box (11)">"original_open_hours"</Value>
+              <Value name="Check Box (84)">True</Value>
+              <Value name="Check Box (117)">True</Value>
+              <Value name="Check Box (15)">True</Value>
+              <Value name="Check Box (109)">False</Value>
+              <Value name="Check Box (122)">False</Value>
+              <Value name="Check Box (53)">True</Value>
+              <Value name="Check Box (58)">False</Value>
+              <Value name="Check Box (70)">False</Value>
+              <Value name="Check Box (77)">False</Value>
+              <Value name="Drop Down (81)">upper</Value>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText />
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings Macro="Cleanse.yxmc" />
+        </Node>
+        <Node ToolID="46">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1338" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>All</FieldType>
+              <Fields orderChanged="False">
+                <Field name="original_open_hours_Mon" />
+                <Field name="original_open_hours_Tue" />
+                <Field name="original_open_hours_Wed" />
+                <Field name="original_open_hours_Thu" />
+                <Field name="original_open_hours_Fri" />
+                <Field name="original_open_hours_Sat" />
+                <Field name="original_open_hours_Sun" />
+                <Field name="restaurant_link" selected="False" />
+                <Field name="restaurant_name" selected="False" />
+                <Field name="original_location" selected="False" />
+                <Field name="country" selected="False" />
+                <Field name="region" selected="False" />
+                <Field name="province" selected="False" />
+                <Field name="city" selected="False" />
+                <Field name="latitude" selected="False" />
+                <Field name="longitude" selected="False" />
+                <Field name="claimed" selected="False" />
+                <Field name="awards" selected="False" />
+                <Field name="popularity_detailed" selected="False" />
+                <Field name="popularity_generic" selected="False" />
+                <Field name="top_tags" selected="False" />
+                <Field name="meals" selected="False" />
+                <Field name="cuisines" selected="False" />
+                <Field name="special_diets" selected="False" />
+                <Field name="features" selected="False" />
+                <Field name="vegetarian_friendly" selected="False" />
+                <Field name="vegan_options" selected="False" />
+                <Field name="gluten_free" selected="False" />
+                <Field name="original_open_hours" selected="False" />
+                <Field name="open_days_per_week" selected="False" />
+                <Field name="open_hours_per_week" selected="False" />
+                <Field name="working_shifts_per_week" selected="False" />
+                <Field name="avg_rating" selected="False" />
+                <Field name="total_reviews_count" selected="False" />
+                <Field name="default_language" selected="False" />
+                <Field name="reviews_count_in_default_language" selected="False" />
+                <Field name="excellent" selected="False" />
+                <Field name="very_good" selected="False" />
+                <Field name="average" selected="False" />
+                <Field name="poor" selected="False" />
+                <Field name="terrible" selected="False" />
+                <Field name="food" selected="False" />
+                <Field name="service" selected="False" />
+                <Field name="value" selected="False" />
+                <Field name="atmosphere" selected="False" />
+                <Field name="keywords" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression>Trim([_CurrentField_],'"": []')</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_String" size="254" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>Trim([_CurrentField_],'"": []')</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="47">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.MultiFieldFormula.MultiFieldFormula">
+            <Position x="1422" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FieldType>All</FieldType>
+              <Fields orderChanged="False">
+                <Field name="original_open_hours_Mon" />
+                <Field name="original_open_hours_Tue" />
+                <Field name="original_open_hours_Wed" />
+                <Field name="original_open_hours_Thu" />
+                <Field name="original_open_hours_Fri" />
+                <Field name="original_open_hours_Sat" />
+                <Field name="original_open_hours_Sun" />
+                <Field name="restaurant_link" selected="False" />
+                <Field name="restaurant_name" selected="False" />
+                <Field name="original_location" selected="False" />
+                <Field name="country" selected="False" />
+                <Field name="region" selected="False" />
+                <Field name="province" selected="False" />
+                <Field name="city" selected="False" />
+                <Field name="latitude" selected="False" />
+                <Field name="longitude" selected="False" />
+                <Field name="claimed" selected="False" />
+                <Field name="awards" selected="False" />
+                <Field name="popularity_detailed" selected="False" />
+                <Field name="popularity_generic" selected="False" />
+                <Field name="top_tags" selected="False" />
+                <Field name="meals" selected="False" />
+                <Field name="cuisines" selected="False" />
+                <Field name="special_diets" selected="False" />
+                <Field name="features" selected="False" />
+                <Field name="vegetarian_friendly" selected="False" />
+                <Field name="vegan_options" selected="False" />
+                <Field name="gluten_free" selected="False" />
+                <Field name="original_open_hours" selected="False" />
+                <Field name="open_days_per_week" selected="False" />
+                <Field name="open_hours_per_week" selected="False" />
+                <Field name="working_shifts_per_week" selected="False" />
+                <Field name="avg_rating" selected="False" />
+                <Field name="total_reviews_count" selected="False" />
+                <Field name="default_language" selected="False" />
+                <Field name="reviews_count_in_default_language" selected="False" />
+                <Field name="excellent" selected="False" />
+                <Field name="very_good" selected="False" />
+                <Field name="average" selected="False" />
+                <Field name="poor" selected="False" />
+                <Field name="terrible" selected="False" />
+                <Field name="food" selected="False" />
+                <Field name="service" selected="False" />
+                <Field name="value" selected="False" />
+                <Field name="atmosphere" selected="False" />
+                <Field name="keywords" selected="False" />
+                <Field name="*Unknown" selected="False" />
+              </Fields>
+              <CopyOutput value="False" />
+              <Expression>ReplaceChar([_CurrentField_], '"', '')</Expression>
+              <ChangeFieldType value="True" />
+              <OutputFieldType type="V_String" size="254" scale="0" />
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>ReplaceChar([_CurrentField_], '"', '')</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxMultiFieldFormula" />
+        </Node>
+        <Node ToolID="48">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+            <Position x="1530" y="618" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <Expression>!IsEmpty([original_open_hours_Sat]) AND !IsEmpty([original_open_hours_Sun]) AND
+!StartsWith([original_open_hours_Sat], '1') AND !StartsWith([original_open_hours_Sun], '1')</Expression>
+              <Mode>Custom</Mode>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>!IsEmpty([original_open_hours_Sat]) AND !IsEmpty([original_open_hours_Sun]) AND
+...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+        </Node>
+        <Node ToolID="49">
+          <GuiSettings Plugin="AlteryxBasePluginsGui.Formula.Formula">
+            <Position x="978" y="546" />
+          </GuiSettings>
+          <Properties>
+            <Configuration>
+              <FormulaFields>
+                <FormulaField expression="IF !EndsWith([original_open_hours], ']}')&#xA;THEN [original_open_hours]+'0'&#xA;ELSE [original_open_hours]&#xA;ENDIF" field="original_open_hours" size="512" type="V_String" />
+              </FormulaFields>
+            </Configuration>
+            <Annotation DisplayMode="0">
+              <Name />
+              <DefaultAnnotationText>original_open_hours = IF !EndsWith([original_open_hours], ']}')
+THEN [original_o...</DefaultAnnotationText>
+              <Left value="False" />
+            </Annotation>
+          </Properties>
+          <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFormula" />
+        </Node>
+      </ChildNodes>
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="3" Connection="Output" />
+      <Destination ToolID="10" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="5" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="4" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output26" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="Output" />
+      <Destination ToolID="12" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="Output26" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="13" Connection="True" />
+      <Destination ToolID="17" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Output" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Output" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="18" Connection="True" />
+      <Destination ToolID="30" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="True" />
+      <Destination ToolID="32" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="20" Connection="Output" />
+      <Destination ToolID="26" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="23" Connection="True" />
+      <Destination ToolID="34" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="24" Connection="True" />
+      <Destination ToolID="36" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="25" Connection="True" />
+      <Destination ToolID="38" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="26" Connection="Output" />
+      <Destination ToolID="27" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="27" Connection="Output" />
+      <Destination ToolID="41" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="28" Connection="Output" />
+      <Destination ToolID="29" Connection="Input" />
+    </Connection>
+    <Connection name="#1">
+      <Origin ToolID="30" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#2">
+      <Origin ToolID="32" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#3">
+      <Origin ToolID="34" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#4">
+      <Origin ToolID="36" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection name="#5">
+      <Origin ToolID="38" Connection="Output" />
+      <Destination ToolID="40" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="40" Connection="Output" />
+      <Destination ToolID="28" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="41" Connection="True" />
+      <Destination ToolID="49" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="42" Connection="Output" />
+      <Destination ToolID="44" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="43" Connection="Output" />
+      <Destination ToolID="45" Connection="Input2" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="44" Connection="Output" />
+      <Destination ToolID="46" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="45" Connection="Output26" />
+      <Destination ToolID="42" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="46" Connection="Output" />
+      <Destination ToolID="47" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="47" Connection="Output" />
+      <Destination ToolID="48" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="48" Connection="True" />
+      <Destination ToolID="25" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="49" Connection="Output" />
+      <Destination ToolID="43" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>sample_data_flow</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="abf4ba9e-b79c-4de5-9845-1d38853dce19" />
+      <Telemetry>
+        <PreviousWorkflowId value="5eee6257-8143-4979-b4a5-864d2929f75c" />
+        <OriginWorkflowId value="5eee6257-8143-4979-b4a5-864d2929f75c" />
+      </Telemetry>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
